@@ -1,0 +1,13 @@
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\bin\Debug\netcoreapp3.1\HttpClientDemo.exe
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\bin\Debug\netcoreapp3.1\HttpClientDemo.deps.json
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\bin\Debug\netcoreapp3.1\HttpClientDemo.runtimeconfig.json
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\bin\Debug\netcoreapp3.1\HttpClientDemo.runtimeconfig.dev.json
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\bin\Debug\netcoreapp3.1\HttpClientDemo.dll
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\bin\Debug\netcoreapp3.1\HttpClientDemo.pdb
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\obj\Debug\netcoreapp3.1\HttpClientDemo.csprojAssemblyReference.cache
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\obj\Debug\netcoreapp3.1\HttpClientDemo.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\obj\Debug\netcoreapp3.1\HttpClientDemo.AssemblyInfo.cs
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\obj\Debug\netcoreapp3.1\HttpClientDemo.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\obj\Debug\netcoreapp3.1\HttpClientDemo.dll
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\obj\Debug\netcoreapp3.1\HttpClientDemo.pdb
+C:\Users\adria\source\repos\C# Web Basics\01. Web Server - HTTP Protocol\HttpClientDemo\HttpClientDemo\obj\Debug\netcoreapp3.1\HttpClientDemo.genruntimeconfig.cache

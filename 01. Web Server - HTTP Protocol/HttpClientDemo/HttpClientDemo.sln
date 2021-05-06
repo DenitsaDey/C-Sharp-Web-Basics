@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientDemo", "HttpClientDemo\HttpClientDemo.csproj", "{BD011425-9CF0-4FB3-9B0E-734FCC7393A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NikisDemo", "NikisDemo\NikisDemo.csproj", "{9546A5B1-88EB-40BA-895B-8B6BFCDC3E15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD011425-9CF0-4FB3-9B0E-734FCC7393A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD011425-9CF0-4FB3-9B0E-734FCC7393A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD011425-9CF0-4FB3-9B0E-734FCC7393A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD011425-9CF0-4FB3-9B0E-734FCC7393A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9546A5B1-88EB-40BA-895B-8B6BFCDC3E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9546A5B1-88EB-40BA-895B-8B6BFCDC3E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9546A5B1-88EB-40BA-895B-8B6BFCDC3E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9546A5B1-88EB-40BA-895B-8B6BFCDC3E15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2100DA4-8235-4249-BB76-7C746ABE5F2B}
+	EndGlobalSection
+EndGlobal
