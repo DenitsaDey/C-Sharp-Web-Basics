@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adria\\source\\repos\\C# Web Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj": {}
+    "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adria\\source\\repos\\C# Web Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj": {
+    "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adria\\source\\repos\\C# Web Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj",
+        "projectUniqueName": "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj",
         "projectName": "SUS.MvcFramework",
-        "projectPath": "C:\\Users\\adria\\source\\repos\\C# Web Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj",
+        "projectPath": "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj",
         "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adria\\source\\repos\\C# Web Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\obj\\",
+        "outputPath": "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

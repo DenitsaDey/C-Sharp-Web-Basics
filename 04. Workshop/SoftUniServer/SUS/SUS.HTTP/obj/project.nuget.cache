@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "907YvGCCmtCKHBcebDM/QrhKAhSeu+3vaOSYOydvQPgrf79FJVk+aWKVRlhZAVD8GmEnKlTRCg3rXOnpWB5zXg==",
+  "dgSpecHash": "ofLBtC8npmT+N495n8yTuQ3kZ/PV/A59DLO2yATgJKDmnQ3Gnk6PfhfgR3Y9GxoOOXTfqaBb6NNPtDYOchbMTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adria\\source\\repos\\C# Web Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.HTTP\\SUS.HTTP.csproj",
+  "projectFilePath": "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.HTTP\\SUS.HTTP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

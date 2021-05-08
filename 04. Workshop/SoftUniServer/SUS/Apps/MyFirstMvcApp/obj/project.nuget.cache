@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lYFqHpJJrHOisCgs4LY5TOQWlpQ/QI+Bz5+Yw5V//+W6qwbo8LMKH4N3hup2UnJvHDtk+Av0RrEg2reHs0MNvw==",
+  "dgSpecHash": "qM0DuxoZAk3foqyl4v31yspdsaclZK6TtWmWTcWGRS0OLQo58ZbnIrSM3XIsqs8Tz4ocRthNOcjuFiqXackahA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adria\\source\\repos\\C# Web Basics\\04. Workshop\\SoftUniServer\\SUS\\Apps\\MyFirstMvcApp\\MyFirstMvcApp.csproj",
+  "projectFilePath": "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\Apps\\MyFirstMvcApp\\MyFirstMvcApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

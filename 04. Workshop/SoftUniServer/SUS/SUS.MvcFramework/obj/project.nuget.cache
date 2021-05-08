@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XZpAb4d7Uyn9t2KfJOl3MHvgWhEsSnNrRjGIMQyCxv28ucIA5GS+7fU7qnoEO+BG4dbEi1cRvfjyVTcFvfGlFg==",
+  "dgSpecHash": "OtW7f/xCdL9bMGtPen1/X2Sr5gY9tG2oOFQpSpN5Y3FQ8PwHEOMSFdts1MrgaxLBw7/WnM0KpZuJo2+QLW52AA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adria\\source\\repos\\C# Web Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj",
+  "projectFilePath": "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.MvcFramework\\SUS.MvcFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
