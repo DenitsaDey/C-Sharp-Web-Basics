@@ -157,7 +157,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.HTTP\\SUS.HTTP.csproj": {
+                "projectPath": "C:\\Users\\adria\\source\\repos\\C-Sharp-Web-Basics\\04. Workshop\\SoftUniServer\\SUS\\SUS.HTTP\\SUS.HTTP.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

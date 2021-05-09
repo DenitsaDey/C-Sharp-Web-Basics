@@ -1,0 +1,12 @@
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.deps.json
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.pdb
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csprojAssemblyReference.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.AssemblyInfo.cs
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.pdb
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.HTTP.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.HTTP.pdb
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csproj.CopyComplete

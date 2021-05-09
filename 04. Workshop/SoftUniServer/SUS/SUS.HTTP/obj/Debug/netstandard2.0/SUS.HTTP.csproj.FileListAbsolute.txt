@@ -7,3 +7,12 @@ C:\Users\adria\source\repos\C# Web Basics\04. Workshop\SoftUniServer\SUS\SUS.HTT
 C:\Users\adria\source\repos\C# Web Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csproj.CoreCompileInputs.cache
 C:\Users\adria\source\repos\C# Web Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.dll
 C:\Users\adria\source\repos\C# Web Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.pdb
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.deps.json
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.pdb
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csprojAssemblyReference.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.AssemblyInfo.cs
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\SoftUniServer\SUS\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.pdb
