@@ -66,7 +66,8 @@ namespace SUS.HTTP
                     Console.WriteLine($"{request.Method} {request.Path} => {request.Headers.Count} headers");
 
                     HttpResponse response;
-                    var currentRoute = this.routeTable.FirstOrDefault(r => r.Path == request.Path);
+                    var currentRoute = this.routeTable.FirstOrDefault(r => string.Compare(r.Path, request.Path, true) == 0 &&
+                    r.Method == request.Method);
                     if (currentRoute != null)
                     {
                         response = currentRoute.Action(request); //Func which returns response

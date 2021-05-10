@@ -7,25 +7,26 @@ using System.Threading.Tasks;
 
 namespace MyFirstMvcApp
 {
-    class Program
+    public class Program
     {
-        static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            List<Route> routeTable = new List<Route>();
-            routeTable.Add(new Route("/", new HomeController().Index));
-            routeTable.Add(new Route("/users/login", new UsersController().Login));
-            routeTable.Add(new Route("/users/register", new UsersController().Register));
-            routeTable.Add(new Route("/cards/all", new CardsController().All));
-            routeTable.Add(new Route("/cards/add", new CardsController().Add));
-            routeTable.Add(new Route("/cards/collection", new CardsController().Collection));
+            //02. we move the routeTable to the Startup clss in the My First Mvc App
+            //List<Route> routeTable = new List<Route>();
+            //routeTable.Add(new Route("/", new HomeController().Index));
+            //routeTable.Add(new Route("/users/login", new UsersController().Login));
+            //routeTable.Add(new Route("/users/register", new UsersController().Register));
+            //routeTable.Add(new Route("/cards/all", new CardsController().All));
+            //routeTable.Add(new Route("/cards/add", new CardsController().Add));
+            //routeTable.Add(new Route("/cards/collection", new CardsController().Collection));
 
-            routeTable.Add(new Route("/favicon.ico", new StaticFilesController().Favicon));
-            routeTable.Add(new Route("/css/bootstrap.min.css", new StaticFilesController().BootstrapCss));
-            routeTable.Add(new Route("/css/custom.css", new StaticFilesController().CustomCss));
-            routeTable.Add(new Route("/js/bootstrap.bundle.min.js", new StaticFilesController().BootstrapJs));
-            routeTable.Add(new Route("/js/custom.js", new StaticFilesController().CustomJs));
+            //routeTable.Add(new Route("/favicon.ico", new StaticFilesController().Favicon));
+            //routeTable.Add(new Route("/css/bootstrap.min.css", new StaticFilesController().BootstrapCss));
+            //routeTable.Add(new Route("/css/custom.css", new StaticFilesController().CustomCss));
+            //routeTable.Add(new Route("/js/bootstrap.bundle.min.js", new StaticFilesController().BootstrapJs));
+            //routeTable.Add(new Route("/js/custom.js", new StaticFilesController().CustomJs));
 
-            //we create a class Route in MVC so that the start of the process can be done in the WebHost class
+            //01. we create a class Route in MVC so that the start of the process can be done in the WebHost class
             //server.AddRoute("/", new HomeController().Index);
             //server.AddRoute("/deni", (request) =>
             //{
@@ -43,7 +44,7 @@ namespace MyFirstMvcApp
             //Process.Start(@"C:\Program Files (x86)\Mozilla Firefox\firefox.exe", "http://localhost");
             //await server.StartAsync(80);
 
-            await WebHost.CreateHostAsync(routeTable, 80);
+            await WebHost.CreateHostAsync(new Startup(), 80);
         }
     }
 }

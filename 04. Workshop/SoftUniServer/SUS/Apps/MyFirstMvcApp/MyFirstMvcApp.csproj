@@ -11,25 +11,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Controllers\Views\Cards\Add.html">
+    <None Update="Views\Cards\Add.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Controllers\Views\Cards\All.html">
+    <None Update="Views\Cards\All.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Controllers\Views\Cards\Collection.html">
+    <None Update="Views\Cards\Collection.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Controllers\Views\Home\Index.html">
+    <None Update="Views\Home\Index.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Controllers\Views\Shared\_Layout.html">
+    <None Update="Views\Shared\_Layout.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Controllers\Views\Users\Login.html">
+    <None Update="Views\Users\Login.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Controllers\Views\Users\Register.html">
+    <None Update="Views\Users\Register.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="wwwroot\css\bootstrap.min.css">
@@ -47,6 +47,10 @@
     <None Update="wwwroot\js\custom.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data%28Models%29\" />
   </ItemGroup>
 
 </Project>
