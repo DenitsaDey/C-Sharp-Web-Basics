@@ -21,7 +21,7 @@ namespace SharedTrip.Data
 
         public DateTime DepartureTime { get; set; }
 
-        public byte Seats { get; set; }
+        public int Seats { get; set; }
 
         [Required]
         [MaxLength(80)]
