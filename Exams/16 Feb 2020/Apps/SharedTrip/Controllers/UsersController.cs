@@ -79,6 +79,12 @@ namespace SharedTrip.Controllers
             this.userService.Create(input.Username, input.Email, input.Password);
             return this.Redirect("/Users/Login");
         }
+
+        public HttpResponse Logout()
+        {
+            this.SignOut();
+            return this.Redirect("/");
+        }
     }
 
 }

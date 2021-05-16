@@ -18,6 +18,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
+                  @if (User == null)
+                  {
                     <li class="nav-item active">
                         <a class="nav-link" href="/">Home</a>
                     </li>
@@ -27,6 +29,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/Users/Register">Register</a>
                     </li>
+                  }
+                  @else
+                  {
                     <li class="nav-item">
                         <a class="nav-link" href="/Trips/All">Trips</a>
                     </li>
@@ -36,6 +41,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/Users/Logout">Logout</a>
                     </li>
+                  }
                 </ul>
             </div>
         </div>
