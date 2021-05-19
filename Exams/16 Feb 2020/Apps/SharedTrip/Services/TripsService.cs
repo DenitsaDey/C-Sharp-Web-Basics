@@ -16,12 +16,12 @@ namespace SharedTrip.Services
             this.db = db;
         }
 
-        public void AddUserToTrip(string userId, string tripId)
+        public bool AddUserToTrip(string userId, string tripId)
         {
             var userInTrip = this.db.UserTrips.Any(x => x.UserId == userId && x.TripId == tripId);
             if (userInTrip)
             {
-                return;
+                return false;
             }
 
             var userTrip = new UserTrip
@@ -31,6 +31,7 @@ namespace SharedTrip.Services
             };
             this.db.UserTrips.Add(userTrip);
             this.db.SaveChanges();
+            return true;
         }
 
         public bool HasAvailableSeats(string tripId)

@@ -13,6 +13,6 @@ namespace SharedTrip.Services
         TripDetailsViewModel GetDetails(string id);
 
         bool HasAvailableSeats(string tripId);
-        void AddUserToTrip(string userId, string tripId);
+        bool AddUserToTrip(string userId, string tripId);
     }
 }
