@@ -5,8 +5,11 @@ using System.Text;
 
 namespace SulsApp.ViewModels.Problems
 {
-    class ProblemViewModel
+    public class ProblemViewModel
     {
+        public string Name { get; set; }
+        public IEnumerable<SubmissionViewModel> Submissions { get; set; }
+
     }
 }
 =======

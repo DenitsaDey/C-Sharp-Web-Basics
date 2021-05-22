@@ -72,12 +72,18 @@ namespace SIS.MvcFramework
         public string User =>
             this.Request.SessionData.ContainsKey("UserId") ?
                 this.Request.SessionData["UserId"] : null;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
 
         protected string GetUserId() =>
             this.Request.SessionData.ContainsKey("UserId") ?
             this.Request.SessionData["UserId"] : null;
+<<<<<<< Updated upstream
 >>>>>>> 91886ece345b5bfab24f0a2a1b2d4acb61d4237e
+=======
+>>>>>>> Stashed changes
     }
 }

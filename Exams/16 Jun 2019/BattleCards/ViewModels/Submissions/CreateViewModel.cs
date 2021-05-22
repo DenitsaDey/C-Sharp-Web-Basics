@@ -5,8 +5,10 @@ using System.Text;
 
 namespace SulsApp.ViewModels.Submissions
 {
-    class CreateViewModel
+    public class CreateViewModel
     {
+        public string Name { get; set; }
+        public string ProblemId { get; set; }
     }
 }
 =======

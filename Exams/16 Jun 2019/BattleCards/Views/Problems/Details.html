@@ -1,11 +1,42 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 ﻿<h1 class="text-center suls-text-color">Problem - @Model.Name</h1>
 <form class="mx-auto half-width col-5" method="post" action="/Submissions/Create">
+=======
+﻿<main class="mt-3">
+    <h1 class="text-center suls-text-color">Problem Details - @Model.Name</h1>
+>>>>>>> Stashed changes
     <div class="top-border-line primary-separator"></div>
-    <div class="form-group">
-        <label for="code" class="suls-text-color">Submit your code here:</label>
-        <textarea class="form-control" id="code" name="code" rows="10"></textarea>
+    <div class="text-center suls-text-color">Problem Submissions</div>
+
+    <div class="container-fluid ml-5">
+        <table class="table table-hover">
+            <thead>
+            <tr class="row">
+                <th scope="col" class="col-lg-3 suls-text-color">User</th>
+                <th scope="col" class="col-lg-3 suls-text-color">Achieved Result</th>
+                <th scope="col" class="col-lg-3 suls-text-color">Submitted On</th>
+                <th scope="col" class="col-lg-3 suls-text-color">Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var submission in Model.Submissions)
+            {
+            <tr class="row">
+                <td class="col-lg-3 suls-text-color">@submission.Username</td>
+                <td class="col-lg-3 suls-text-color">@submission.AchievedResult / @submission.MaxPoints (@submissions.Percentage %)</td>
+                <td class="col-lg-3 suls-text-color">@submission.CreatedOn.ToShortDateString()</td>
+                <td class="col-lg-3 suls-text-color">
+                    <div class="button-holder">
+                        <a href="/Submissions/Delete?id=@submission.SubmissionId" class="btn btn-warning">Delete</a>
+                    </div>
+                </td>
+            </tr>
+            }
+            </tbody>
+        </table>
     </div>
+<<<<<<< Updated upstream
     <input type="hidden" id="ProblemId" name="ProblemId" value="@Model.ProblemId" />
     <div class="top-border-line primary-separator"></div>
     <div class="button-holder d-flex justify-content-center">
@@ -47,3 +78,6 @@
     </div>
 </main>
 >>>>>>> 91886ece345b5bfab24f0a2a1b2d4acb61d4237e
+=======
+</main>
+>>>>>>> Stashed changes
