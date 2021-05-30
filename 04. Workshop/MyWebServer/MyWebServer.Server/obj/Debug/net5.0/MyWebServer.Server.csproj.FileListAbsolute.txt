@@ -1,0 +1,12 @@
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\bin\Debug\net5.0\MyWebServer.Server.deps.json
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\bin\Debug\net5.0\MyWebServer.Server.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\bin\Debug\net5.0\ref\MyWebServer.Server.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\bin\Debug\net5.0\MyWebServer.Server.pdb
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\obj\Debug\net5.0\MyWebServer.Server.csprojAssemblyReference.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\obj\Debug\net5.0\MyWebServer.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\obj\Debug\net5.0\MyWebServer.Server.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\obj\Debug\net5.0\MyWebServer.Server.AssemblyInfo.cs
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\obj\Debug\net5.0\MyWebServer.Server.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\obj\Debug\net5.0\MyWebServer.Server.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\obj\Debug\net5.0\ref\MyWebServer.Server.dll
+C:\Users\adria\source\repos\C-Sharp-Web-Basics\04. Workshop\MyWebServer\MyWebServer.Server\obj\Debug\net5.0\MyWebServer.Server.pdb
