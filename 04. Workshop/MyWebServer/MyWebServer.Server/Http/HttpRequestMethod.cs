@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyWebServer.Server.Http
 {
-    class HttpRequestMethod
+    public enum HttpRequestMethod
     {
+        Get,
+        Post,
+        Put,
+        Delete,
     }
 }

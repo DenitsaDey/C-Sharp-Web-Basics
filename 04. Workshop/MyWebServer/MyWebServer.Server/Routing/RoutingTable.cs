@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyWebServer.Server.Http
+namespace MyWebServer.Server.Routing
 {
-    public enum HttpStatusCode
+    public class RoutingTable
     {
-        OK = 200
+
     }
 }
