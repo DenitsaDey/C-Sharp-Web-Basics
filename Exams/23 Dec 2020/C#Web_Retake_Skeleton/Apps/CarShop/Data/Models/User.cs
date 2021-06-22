@@ -25,5 +25,6 @@ namespace CarShop.Data.Models
         public string Password { get; set; }
 
         public bool IsMechanic { get; set; }
+        public virtual ICollection<Car> Cars { get; set; } = new HashSet<Car>();
     }
 }

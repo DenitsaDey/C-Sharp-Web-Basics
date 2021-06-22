@@ -42,7 +42,7 @@ namespace CarShop.Services
             if (currentUser.IsMechanic)
             {
                 carsAvailable = this.db.Cars
-                    .Where(x => x.Issues.Where(i => !i.IsFixed).Count() > 0)
+                    .Where(x => x.Issues.Any(i => !i.IsFixed))
                     .Select(x => new CarViewModel
                     {
                         Id = x.Id,

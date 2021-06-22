@@ -1,5 +1,6 @@
 ﻿using CarShop.Data;
 using CarShop.Data.Models;
+using CarShop.ViewModels.User;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -13,14 +14,14 @@ namespace CarShop.Services
         {
             this.db = db;
         }
-        public void Create(string username, string email, string password, string userType)
+        public void Create(RegisterInputModel input)
         {
             var newUser = new User
             {
-                Username = username,
-                Email = email,
-                Password = ComputeHash(password),
-                IsMechanic = userType == "Mechanic" ? true : false
+                Username = input.Username,
+                Email = input.Email,
+                Password = ComputeHash(input.Password),
+                IsMechanic = input.UserType == "Mechanic" ? true : false
             };
 
             this.db.Users.Add(newUser);

@@ -8,8 +8,13 @@ namespace CarShop.Services
 {
     public interface IIssuesService
     {
-        void AddIssue(AddIssueInputModel input, string carId);
+        void AddIssue(string description, string carId);
         bool CarIdIsValid(string carId);
         CarIssuesViewModel GetAll(string carId);
+
+        bool UserCanFixIssue(string userId);
+
+        void FixIssue(string issueId, string carId);
+        void DeleteIssue(string issueId);
     }
 }

@@ -75,7 +75,7 @@ namespace CarShop.Controllers
                 return this.Error("Usertype should be Mechanic or Client");
             }
 
-            this.usersService.Create(input.Username, input.Email, input.Password, input.ConfirmPassword);
+            this.usersService.Create(input);
             return this.Redirect("/Users/Login");
         }
 

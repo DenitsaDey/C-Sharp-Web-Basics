@@ -17,12 +17,11 @@ namespace CarShop.Services
             this.db = db;
         }
 
-        public void AddIssue(AddIssueInputModel input, string carId)
+        public void AddIssue(string description, string carId)
         {
             var newIssue = new Issue
             {
-                Id = input.Id,
-                Description = input.Description,
+                Description = description,
                 IsFixed = false,
                 CarId = carId,
                 Car = this.db.Cars.FirstOrDefault(c => c.Id == carId)
@@ -63,5 +62,25 @@ namespace CarShop.Services
             
             return allIssues;
         }
+
+        public bool UserCanFixIssue(string userId)
+        {
+            return this.db.Users.Any(u => u.Id == userId && u.IsMechanic);
+        }
+
+        public void FixIssue(string issueId, string carId)
+        {
+            var currentCarIssue = this.db.Issues.Where(i => i.Id == issueId && i.CarId == carId).FirstOrDefault();
+            currentCarIssue.IsFixed = true;
+            db.SaveChanges();
+        }
+
+        public void DeleteIssue(string issueId)
+        {
+            var issue = this.db.Issues.Find(issueId);
+            this.db.Issues.Remove(issue);
+            this.db.SaveChanges();
+        }
     }
 }
+

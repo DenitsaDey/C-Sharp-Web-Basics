@@ -11,33 +11,33 @@ namespace CarShop.Controllers
     public class IssuesController : Controller
     {
         private readonly IIssuesService issuesService;
-        private readonly IUsersService usersService;
+        //private readonly IUsersService usersService;
 
         public IssuesController(IIssuesService issuesService)
         {
             this.issuesService = issuesService;
-            this.usersService = usersService;
+            //this.usersService = usersService;
         }
 
-        public HttpResponse Add()
+        public HttpResponse Add(string carId)
         {
             if (!this.IsUserSignedIn())
             {
                 return this.Redirect("/Users/Login");
             }
-            return this.View();
+            return this.View(carId);
         }
 
         [HttpPost]
-        public HttpResponse Add(AddIssueInputModel input, string carId)
+        public HttpResponse Add(string description, string carId)
         {
             if (!this.IsUserSignedIn())
             {
                 return this.Redirect("/Users/Login");
             }
 
-            if (string.IsNullOrEmpty(input.Description) ||
-                input.Description.Length < 5)
+            if (string.IsNullOrEmpty(description) ||
+                description.Length < 5)
             {
                 return this.Error("Description is required");
             }
@@ -45,10 +45,9 @@ namespace CarShop.Controllers
             {
                 return this.Error($"Car with ID {carId} does not exist.");
             }
-            
-            var userId = this.GetUserId();
-            this.issuesService.AddIssue(input, userId);
-            return this.Redirect($"/Issues/CarIssues?carId={carId}");
+
+            this.issuesService.AddIssue(description, carId);
+            return this.Redirect($"/Issues/Carissues?carId={carId}");
         }
 
         public HttpResponse CarIssues(string carId)
@@ -57,20 +56,40 @@ namespace CarShop.Controllers
             {
                 return this.Redirect("/Users/Login");
             }
-            var userId = this.GetUserId();
 
-            //if (!this.usersService.UserIsMechanic(userId))
-            //{
-            //    return 
-            //}
             var carWithIssues = this.issuesService.GetAll(carId);
-            if(carWithIssues == null)
-            {
-                return this.Error($"Car with ID {carId} does not exist.");
-            }
+            //if(carWithIssues == null)
+            //{
+            //    return this.Error($"Car with ID {carId} does not exist.");
+            //}
             return this.View(carWithIssues);
         }
 
+        public HttpResponse Fix(string issueId, string carId)
+        {
+            if (!this.IsUserSignedIn())
+            {
+                return this.Redirect("/Users/Login");
+            }
 
+            var userId = this.GetUserId();
+            if (!this.issuesService.UserCanFixIssue(userId))
+            {
+                return this.Error("Clients cannot fix issues.");
+            }
+            this.issuesService.FixIssue(issueId, carId);
+            return this.Redirect($"/Issues/CarIssues?carId={carId}");
+        }
+
+        public HttpResponse Delete(string issueId, string carId)
+        {
+            if (!this.IsUserSignedIn())
+            {
+                return this.Redirect("/Users/Login");
+            }
+
+            this.issuesService.DeleteIssue(issueId);
+            return this.Redirect($"/Issues/CarIssues?carId={carId}");
+        }
     }
 }
