@@ -5,15 +5,7 @@
 
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext()
-        {
-        }
-
-        public ApplicationDbContext(DbContextOptions dbContextOptions)
-            :base(dbContextOptions)
-        {
-
-        }
+        
         public DbSet<User> Users { get; set; }
         public DbSet<Card> Cards { get; set; }
         public DbSet<UserCard> UserCards { get; set; }

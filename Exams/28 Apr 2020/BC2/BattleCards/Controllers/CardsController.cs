@@ -37,7 +37,7 @@ namespace BattleCards.Controllers
                 input.Name.Length < 5 ||
                 input.Name.Length > 15)
             {
-                return this.Error("Username should be be between 5 and 15 characters long");
+                return this.Error("Name should be be between 5 and 15 characters long");
             }
 
             if (string.IsNullOrWhiteSpace(input.ImageUrl))

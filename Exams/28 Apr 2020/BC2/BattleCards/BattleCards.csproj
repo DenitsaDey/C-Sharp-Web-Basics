@@ -111,7 +111,6 @@
   
   <ItemGroup>
     <Folder Include="Migrations\" />
-    <ProjectReference Include="..\..\SUS.MvcFramework\SUS.MvcFramework.csproj" />
   </ItemGroup>
 
 </Project>
